@@ -4,9 +4,11 @@
   "description": "My graphql practice project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dockerStart": "docker-compose -f ./docker-compose.yml up -d",
-    "deploy": "prisma deploy"
+    "deploy": "prisma deploy",
+    "reset": "prisma reset --force",
+    "delete": "prisma delete --force",
+    "start": "node index.js"
   },
   "author": "Dustin R",
   "license": "ISC",

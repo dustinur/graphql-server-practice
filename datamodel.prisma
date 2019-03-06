@@ -1,24 +1,31 @@
-type User {
+type Character {
   id: ID! @unique
-  email: String @unique
   name: String!
-  posts: [Post!]!
+  charClass: String!
+  imageUrl: String
 }
 
-type Post {
-  id: ID! @unique
-  createdAt: DateTime!
-  updatedAt: DateTime!
-  title: String!
-  published: Boolean! @default(value: "false")
-  author: User
-  comments: [Comment!]!
-}
+# type User {
+#   id: ID! @unique
+#   email: String @unique
+#   name: String!
+#   posts: [Post!]!
+# }
 
-type Comment {
-  id: ID! @unique
-  createdAt: DateTime!
-  updatedAt: DateTime!
-  bodyText: String!
-  createdBy: User
-}
+# type Post {
+#   id: ID! @unique
+#   createdAt: DateTime!
+#   updatedAt: DateTime!
+#   title: String!
+#   published: Boolean! @default(value: "false")
+#   author: User
+#   comments: [Comment!]!
+# }
+
+# type Comment {
+#   id: ID! @unique
+#   createdAt: DateTime!
+#   updatedAt: DateTime!
+#   bodyText: String!
+#   createdBy: User
+# }

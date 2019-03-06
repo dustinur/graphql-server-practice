@@ -1,32 +1,21 @@
-const { prisma } = require('./generated/prisma-client')
+const { prisma } = require("./generated/prisma-client");
 
 // A `main` function so that we can use async/await
 async function main() {
+  // Create a new character with a new post
 
-  // Create a new user with a new post
-  const newUser = await prisma
-    .createUser({
-      name: "Bruce",
-      email: "bruce@prisma.io",
-      posts: {
-        create: [{
-          title: "Bruce in 2019",
-          comments: {
-            create: [{ bodyText: 'I love comments' }, { bodyText: 'I love ice cream' }]
-          }
-        }, {
-          title: "Bruce news",
-        }]
-      },
-    })
-  console.log(`Created new user: ${newUser.name} (ID: ${newUser.id})`)
+  const newCharacter = await prisma.createCharacter({
+    name: "geralt",
+    charClass: "witcher",
+    imageUrl: "test.jpg"
+  });
+  console.log(
+    `Created new character: ${newCharacter.name} (ID: ${newCharacter.id})`
+  );
 
-  // Read all users from the database and print them to the console
-  // const allUsers = await prisma.users()
-  // console.log(allUsers)
-
-  // const allPosts = await prisma.posts()
-  // console.log(allPosts)
+  // Read all characters from the database and print them to the console
+  const allCharacters = await prisma.characters();
+  console.log(allCharacters);
 }
 
-main().catch(e => console.error(e))
+main().catch(e => console.error(e));

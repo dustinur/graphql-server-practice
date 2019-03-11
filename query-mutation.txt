@@ -1,0 +1,31 @@
+# Write your query or mutation here
+query allCharacters {
+  characters {
+    id,
+    name,
+    charClass,
+    imageUrl
+  }
+}
+
+mutation createCharacter {
+  createCharacter(data: { 
+    name: "Ciri", 
+    charClass: "Elder Blood", 
+    imageUrl: "test.jpg"
+  }) {
+    id
+    name
+    charClass
+    imageUrl
+  }
+}
+
+mutation deleteCharacter {
+  deleteCharacter(where: { id: "cjsxs57wt00fk0790hw3ciavb" }) {
+      id
+      name
+      charClass
+      imageUrl
+    }
+}

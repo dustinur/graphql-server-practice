@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Geralt",
+    "charClass": "witcher",
+    "imageUrl": "test1.jpg"
+  },
+  {
+    "name": "Ciri",
+    "charClass": "elder blood",
+    "imageUrl": "test2.jpg"
+  },
+  {
+    "name": "Yennefer",
+    "charClass": "mage",
+    "imageUrl": "test3.jpg"
+  },
+  {
+    "name": "Triss",
+    "charClass": "mage",
+    "imageUrl": "test4.jpg"
+  },
+  {
+    "name": "Zolatan",
+    "charClass": "dwarf",
+    "imageUrl": "test5.jpg"
+  }
+]

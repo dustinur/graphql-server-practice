@@ -1,5 +1,5 @@
 # Write your query or mutation here
-query allCharacters {
+query getCharacters {
   characters {
     id,
     name,

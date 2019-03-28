@@ -141,12 +141,14 @@ type CharacterObject =
   | { name: 'name', args?: [] | false, alias?: string  } 
   | { name: 'charClass', args?: [] | false, alias?: string  } 
   | { name: 'imageUrl', args?: [] | false, alias?: string  } 
+  | { name: 'description', args?: [] | false, alias?: string  } 
 
 type CharacterFields =
   | 'id'
   | 'name'
   | 'charClass'
   | 'imageUrl'
+  | 'description'
 
 
 
@@ -178,6 +180,14 @@ export interface CharacterFieldDetails {
     resolve: undefined
   }
   imageUrl: {
+    type: 'String'
+    args: {}
+    description: string
+    list: undefined
+    nullable: true
+    resolve: undefined
+  }
+  description: {
     type: 'String'
     args: {}
     description: string
@@ -622,12 +632,14 @@ type CharacterPreviousValuesObject =
   | { name: 'name', args?: [] | false, alias?: string  } 
   | { name: 'charClass', args?: [] | false, alias?: string  } 
   | { name: 'imageUrl', args?: [] | false, alias?: string  } 
+  | { name: 'description', args?: [] | false, alias?: string  } 
 
 type CharacterPreviousValuesFields =
   | 'id'
   | 'name'
   | 'charClass'
   | 'imageUrl'
+  | 'description'
 
 
 
@@ -659,6 +671,14 @@ export interface CharacterPreviousValuesFieldDetails {
     resolve: undefined
   }
   imageUrl: {
+    type: 'String'
+    args: {}
+    description: string
+    list: undefined
+    nullable: true
+    resolve: undefined
+  }
+  description: {
     type: 'String'
     args: {}
     description: string
@@ -734,6 +754,20 @@ export interface CharacterWhereInput {
   imageUrl_not_starts_with?: string | null
   imageUrl_ends_with?: string | null
   imageUrl_not_ends_with?: string | null
+  description?: string | null
+  description_not?: string | null
+  description_in?: string[]
+  description_not_in?: string[]
+  description_lt?: string | null
+  description_lte?: string | null
+  description_gt?: string | null
+  description_gte?: string | null
+  description_contains?: string | null
+  description_not_contains?: string | null
+  description_starts_with?: string | null
+  description_not_starts_with?: string | null
+  description_ends_with?: string | null
+  description_not_ends_with?: string | null
   AND?: CharacterWhereInput[]
   OR?: CharacterWhereInput[]
   NOT?: CharacterWhereInput[]
@@ -796,6 +830,20 @@ export type CharacterWhereInputInputObject =
   | { name: 'imageUrl_not_starts_with', alias?: string  } 
   | { name: 'imageUrl_ends_with', alias?: string  } 
   | { name: 'imageUrl_not_ends_with', alias?: string  } 
+  | { name: 'description', alias?: string  } 
+  | { name: 'description_not', alias?: string  } 
+  | { name: 'description_in', alias?: string  } 
+  | { name: 'description_not_in', alias?: string  } 
+  | { name: 'description_lt', alias?: string  } 
+  | { name: 'description_lte', alias?: string  } 
+  | { name: 'description_gt', alias?: string  } 
+  | { name: 'description_gte', alias?: string  } 
+  | { name: 'description_contains', alias?: string  } 
+  | { name: 'description_not_contains', alias?: string  } 
+  | { name: 'description_starts_with', alias?: string  } 
+  | { name: 'description_not_starts_with', alias?: string  } 
+  | { name: 'description_ends_with', alias?: string  } 
+  | { name: 'description_not_ends_with', alias?: string  } 
   | { name: 'AND', alias?: string  } 
   | { name: 'OR', alias?: string  } 
   | { name: 'NOT', alias?: string  } 
@@ -804,34 +852,40 @@ export interface CharacterCreateInput {
   name?: string
   charClass?: string
   imageUrl?: string | null
+  description?: string | null
 }
 export type CharacterCreateInputInputObject =
   | Extract<keyof CharacterCreateInput, string>
   | { name: 'name', alias?: string  } 
   | { name: 'charClass', alias?: string  } 
   | { name: 'imageUrl', alias?: string  } 
+  | { name: 'description', alias?: string  } 
   
 export interface CharacterUpdateInput {
   name?: string | null
   charClass?: string | null
   imageUrl?: string | null
+  description?: string | null
 }
 export type CharacterUpdateInputInputObject =
   | Extract<keyof CharacterUpdateInput, string>
   | { name: 'name', alias?: string  } 
   | { name: 'charClass', alias?: string  } 
   | { name: 'imageUrl', alias?: string  } 
+  | { name: 'description', alias?: string  } 
   
 export interface CharacterUpdateManyMutationInput {
   name?: string | null
   charClass?: string | null
   imageUrl?: string | null
+  description?: string | null
 }
 export type CharacterUpdateManyMutationInputInputObject =
   | Extract<keyof CharacterUpdateManyMutationInput, string>
   | { name: 'name', alias?: string  } 
   | { name: 'charClass', alias?: string  } 
   | { name: 'imageUrl', alias?: string  } 
+  | { name: 'description', alias?: string  } 
   
 export interface CharacterSubscriptionWhereInput {
   mutation_in?: prisma.MutationType[]
@@ -864,6 +918,8 @@ export type CharacterOrderByInputValues =
   | 'charClass_DESC'
   | 'imageUrl_ASC'
   | 'imageUrl_DESC'
+  | 'description_ASC'
+  | 'description_DESC'
   | 'createdAt_ASC'
   | 'createdAt_DESC'
   | 'updatedAt_ASC'

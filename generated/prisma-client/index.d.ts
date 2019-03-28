@@ -115,6 +115,8 @@ export type CharacterOrderByInput =
   | "charClass_DESC"
   | "imageUrl_ASC"
   | "imageUrl_DESC"
+  | "description_ASC"
+  | "description_DESC"
   | "createdAt_ASC"
   | "createdAt_DESC"
   | "updatedAt_ASC"
@@ -183,6 +185,20 @@ export interface CharacterWhereInput {
   imageUrl_not_starts_with?: String;
   imageUrl_ends_with?: String;
   imageUrl_not_ends_with?: String;
+  description?: String;
+  description_not?: String;
+  description_in?: String[] | String;
+  description_not_in?: String[] | String;
+  description_lt?: String;
+  description_lte?: String;
+  description_gt?: String;
+  description_gte?: String;
+  description_contains?: String;
+  description_not_contains?: String;
+  description_starts_with?: String;
+  description_not_starts_with?: String;
+  description_ends_with?: String;
+  description_not_ends_with?: String;
   AND?: CharacterWhereInput[] | CharacterWhereInput;
   OR?: CharacterWhereInput[] | CharacterWhereInput;
   NOT?: CharacterWhereInput[] | CharacterWhereInput;
@@ -192,18 +208,21 @@ export interface CharacterCreateInput {
   name: String;
   charClass: String;
   imageUrl?: String;
+  description?: String;
 }
 
 export interface CharacterUpdateInput {
   name?: String;
   charClass?: String;
   imageUrl?: String;
+  description?: String;
 }
 
 export interface CharacterUpdateManyMutationInput {
   name?: String;
   charClass?: String;
   imageUrl?: String;
+  description?: String;
 }
 
 export interface CharacterSubscriptionWhereInput {
@@ -226,6 +245,7 @@ export interface Character {
   name: String;
   charClass: String;
   imageUrl?: String;
+  description?: String;
 }
 
 export interface CharacterPromise extends Promise<Character>, Fragmentable {
@@ -233,6 +253,7 @@ export interface CharacterPromise extends Promise<Character>, Fragmentable {
   name: () => Promise<String>;
   charClass: () => Promise<String>;
   imageUrl: () => Promise<String>;
+  description: () => Promise<String>;
 }
 
 export interface CharacterSubscription
@@ -242,6 +263,7 @@ export interface CharacterSubscription
   name: () => Promise<AsyncIterator<String>>;
   charClass: () => Promise<AsyncIterator<String>>;
   imageUrl: () => Promise<AsyncIterator<String>>;
+  description: () => Promise<AsyncIterator<String>>;
 }
 
 export interface CharacterConnection {
@@ -369,6 +391,7 @@ export interface CharacterPreviousValues {
   name: String;
   charClass: String;
   imageUrl?: String;
+  description?: String;
 }
 
 export interface CharacterPreviousValuesPromise
@@ -378,6 +401,7 @@ export interface CharacterPreviousValuesPromise
   name: () => Promise<String>;
   charClass: () => Promise<String>;
   imageUrl: () => Promise<String>;
+  description: () => Promise<String>;
 }
 
 export interface CharacterPreviousValuesSubscription
@@ -387,6 +411,7 @@ export interface CharacterPreviousValuesSubscription
   name: () => Promise<AsyncIterator<String>>;
   charClass: () => Promise<AsyncIterator<String>>;
   imageUrl: () => Promise<AsyncIterator<String>>;
+  description: () => Promise<AsyncIterator<String>>;
 }
 
 /*

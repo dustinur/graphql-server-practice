@@ -16,6 +16,7 @@ type Character {
   name: String!
   charClass: String!
   imageUrl: String
+  description: String
 }
 
 type CharacterConnection {
@@ -28,6 +29,7 @@ input CharacterCreateInput {
   name: String!
   charClass: String!
   imageUrl: String
+  description: String
 }
 
 type CharacterEdge {
@@ -44,6 +46,8 @@ enum CharacterOrderByInput {
   charClass_DESC
   imageUrl_ASC
   imageUrl_DESC
+  description_ASC
+  description_DESC
   createdAt_ASC
   createdAt_DESC
   updatedAt_ASC
@@ -55,6 +59,7 @@ type CharacterPreviousValues {
   name: String!
   charClass: String!
   imageUrl: String
+  description: String
 }
 
 type CharacterSubscriptionPayload {
@@ -79,12 +84,14 @@ input CharacterUpdateInput {
   name: String
   charClass: String
   imageUrl: String
+  description: String
 }
 
 input CharacterUpdateManyMutationInput {
   name: String
   charClass: String
   imageUrl: String
+  description: String
 }
 
 input CharacterWhereInput {
@@ -144,6 +151,20 @@ input CharacterWhereInput {
   imageUrl_not_starts_with: String
   imageUrl_ends_with: String
   imageUrl_not_ends_with: String
+  description: String
+  description_not: String
+  description_in: [String!]
+  description_not_in: [String!]
+  description_lt: String
+  description_lte: String
+  description_gt: String
+  description_gte: String
+  description_contains: String
+  description_not_contains: String
+  description_starts_with: String
+  description_not_starts_with: String
+  description_ends_with: String
+  description_not_ends_with: String
   AND: [CharacterWhereInput!]
   OR: [CharacterWhereInput!]
   NOT: [CharacterWhereInput!]

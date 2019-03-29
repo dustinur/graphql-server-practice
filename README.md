@@ -1,6 +1,6 @@
 # RESTful CRUD Node Server
 
-GraphQL API Node Server for UVU DGM 4790. Prisma data modeling tool with Docker-based PostgreSQL data store.
+GraphQL API Node Server for Utah Valley University course DGM4790. Prisma data modeling tool with Docker-based PostgreSQL data store.
 
 ## Getting Started
 

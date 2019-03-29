@@ -1,0 +1,74 @@
+# Write your query or mutation here
+
+# Create a single charcter 
+# Required = name, charClass
+mutation createCharacter {
+  createCharacter(data: { 
+    name: "Ciri", 
+    charClass: "Elder Blood", 
+    imageUrl: "test.jpg",
+    description: "description of character"
+  }) {
+    id
+    name
+    charClass
+    imageUrl
+    description
+  }
+}
+
+# Get all charaters
+query getCharacters {
+  characters {
+    id,
+    name,
+    charClass,
+    imageUrl,
+    description
+  }
+}
+
+# Get single charcter by id
+query getCharacter {
+   character(where: { id: "cjtt25375010m07908fqpybui" }) {
+    id,
+    name,
+    charClass,
+    imageUrl,
+    description
+  }
+}
+
+# Get all characters ascending by name
+query getCharactersNameASC {
+  characters(orderBy: name_ASC) {
+    id
+    name
+  }
+}
+
+# Update single charcter name by id
+mutation updateCharacterName {
+  updateCharacter(
+    data: {
+    	name: "Ciri"
+    }
+    where: {
+      id: "cjtt25375010m07908fqpybui"
+    }
+  ) {
+    id
+    name
+	}
+}
+
+# Delete single charcter by id
+mutation deleteCharacter {
+  deleteCharacter(where: { id: "cjsxs57wt00fk0790hw3ciavb" }) {
+      id
+      name
+      charClass
+      imageUrl
+    	description
+    }
+}

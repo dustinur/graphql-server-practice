@@ -39,4 +39,4 @@ npm run load
 
 - Launch Docker desktop
 - Open Playground within your browser at [localhost:4466](http://localhost:4466/)
-- Reference `playgroundCRUD.txt` located in the root directory for CRUD operations in the playground
+- Copy the contents from `playgroundCRUD.txt` located in the root directory and paste in the playground for some basic CRUD operations.

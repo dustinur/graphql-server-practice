@@ -1,146 +1,152 @@
 [
   {
     "name": "Geralt of Rivia",
-    "charClass": "Witcher",
-    "imageUrl": "https://static.comicvine.com/uploads/original/11130/111304876/6579330-the+white+wolf.jpg",
+    "charClass": "Witcher / Human",
+    "imageUrl": "img\\geralt-01.webm",
     "description": "School of the Wolf"
   },
   {
     "name": "Triss Merigold",
-    "charClass": "Sorceress",
-    "imageUrl": "https://i.redd.it/1uctp0naaywy.jpg",
+    "charClass": "Sorceress / Human",
+    "imageUrl": "img\\triss-02.webm",
     "description": "Triss Merigold of Maribor was a legendary Temerian sorceress of the 13th century."
   },
   {
     "name": "Ermion aka Mousesack",
-    "charClass": "Druid",
-    "imageUrl": "https://i.ytimg.com/vi/Hr6sCp4ZaQI/maxresdefault.jpg",
+    "charClass": "Druid / Human",
+    "imageUrl": "img\\ermion-01.webm",
     "description": "A skilled and intelligent druid, and also a good friend and advisor to King Bran Tuirseach of Skellige."
   },
   {
     "name": "Zoltan Chivay",
     "charClass": "Dwarf",
-    "imageUrl": "https://vignette.wikia.nocookie.net/witcher/images/9/9e/Tw3_journal_zoltan.png/revision/latest/scale-to-width-down/350?cb=20170315175743",
+    "imageUrl": "img\\zoltan-01.webm",
     "description": "Friend of Geralt"
   },
   {
     "name": "Yennefer of Vengerberg",
-    "charClass": "Sorceress",
-    "imageUrl": "https://vignette.wikia.nocookie.net/witcher/images/f/f0/The_Witcher_3_Wild_Hunt-Yennefer_of_Vengerberg.png/revision/latest/scale-to-width-down/179?cb=20160326134030",
+    "charClass": "Sorceress / Human",
+    "imageUrl": "img\\yen-02.webm",
     "description": "A sorceress who lived in Vengerberg, the capital city of Aedirn. She was Geralt of Rivia's true love and a mother figure to Ciri, whom she viewed like a daughter to the point that she did everything she could to rescue the girl and keep her from harm."
   },
   {
     "name": "Cirilla Fiona Elen Riannon",
-    "charClass": "Human / Elder Blood",
-    "imageUrl": "https://vignette.wikia.nocookie.net/witcher/images/f/f0/The_Witcher_3_Wild_Hunt-Yennefer_of_Vengerberg.png/revision/latest/scale-to-width-down/179?cb=20160326134030",
+    "charClass": "Elder Blood / Human",
+    "imageUrl": "img\\ciri-02.webm",
     "description": "Ciri was born in 1253, and most likely during the Belleteyn holiday. She was the sole princess of Cintra, the daughter of Pavetta and Emhyr var Emreis as well as Queen Calanthe's granddaughter."
   },
   {
-    "name": "Alvin",
-    "charClass": "Human / Elder Blood",
-    "imageUrl": "https://vignette.wikia.nocookie.net/witcher/images/6/61/People_Alvin_full.png/revision/latest/scale-to-width-down/176?cb=20080922231930",
-    "description": "Alvin was a boy who managed to escape the barghest attack which cost his foster mother her life. As a result of the shock, he started to divine the future and uttered the Prophecy of Ithlinne. It is supposed that Alvin was a Source, having magical powers he couldn't control."
+    "name": "Caranthir Ar-Feiniel",
+    "charClass": "Wild Hunt / Aen Elle / Elf",
+    "imageUrl": "img\\caranthir-01.webm",
+    "description": "Caranthir Ar-Feiniel, also once known as the Golden Child, was a navigator of the Wild Hunt, and was one of Eredin Bréacc Glas' most trusted men."
   },
   {
     "name": "Lambert",
-    "charClass": "Witcher",
-    "imageUrl": "https://vignette.wikia.nocookie.net/witcher/images/c/cd/Tw3_journal_lambert.png/revision/latest/scale-to-width-down/350?cb=20160417204903",
+    "charClass": "Witcher / Human",
+    "imageUrl": "img\\lambert-01.webm",
     "description": "Lambert was one of the younger witchers from Kaer Morhen. Known for his biting tongue, he was often rude in conversation. "
   },
   {
-    "name": "Radovid V",
-    "charClass": "King",
-    "imageUrl": "https://vignette.wikia.nocookie.net/witcher/images/a/ad/Tw3_journal_radovid.png/revision/latest/scale-to-width-down/350?cb=20150906175743",
-    "description": "Radovid V the Stern was the king of Redania from the Redanian Dynasty in the last quarter of the 13th century. His reign became, along with witch hunts, one of the defining factors of the post-war period."
+    "name": "Saesenthessis",
+    "charClass": "Dragon",
+    "imageUrl": "img\\saesenthessis-01.webm",
+    "description": "Saesenthessis, aka Saskia the Dragonslayer, was a dragon with the ability to take on the form of a human. She was the daughter of the famous golden dragon Villentretenmerth and the green dragon Myrgtabrakke."
   },
   {
-    "name": "Sigismund Dijkstra",
-    "charClass": "Human",
-    "imageUrl": "https://vignette.wikia.nocookie.net/witcher/images/c/c7/Tw3_journal_dijkstra.png/revision/latest/scale-to-width-down/350?cb=20170315181519",
-    "description": "Sigismund Dijkstra (born 1219[1]) was the head of Redanian Intelligence. He was a physically imposing man; nearly seven feet tall and bald."
+    "name": "Ihuarraquax",
+    "charClass": "Unicorn",
+    "imageUrl": "img\\ihuarraquax-01.webm",
+    "description": "Ihuarraquax was a young pure white unicorn who wandered the Korath desert with Ciri for a few days."
   },
   {
     "name": "Philippa Eilhart",
-    "charClass": "Sorceress",
-    "imageUrl": "https://vignette.wikia.nocookie.net/witcher/images/1/12/Tw3_journal_philippa.png/revision/latest/scale-to-width-down/350?cb=20160324195257",
+    "charClass": "Sorceress / Human",
+    "imageUrl": "img\\philippa-01.webm",
     "description": "Philippa Eilhart (Polish: Filippa Eilhart) was King Vizimir's advisor and remained in Redania's court even after his death, for which she was likely responsible. She was one of the few sorceresses able to polymorph."
   },
   {
-    "name": "Keira Metz",
-    "charClass": "Sorceress",
-    "imageUrl": "https://vignette.wikia.nocookie.net/witcher/images/6/6f/Tw3_journal_keira.png/revision/latest/scale-to-width-down/350?cb=20160327100213",
-    "description": "Keira Metz of Carreras was a sorceress and former advisor to King Foltest of Temeria, a role that had also been held by Triss Merigold and Fercart. She was fond of luxury, despised the dirtiness of the outdoors, and was rather eccentric in nature."
+    "name": "Hemdall",
+    "charClass": "Legend / Human",
+    "imageUrl": "img\\hemdall-01.webm",
+    "description": "Hemdall is a hero of myths and sagas of Skellige. According to legend, there is a magical golden rooster known as Kambi whose task it is to awaken Hemdall before the Last Battle between the forces of good and evil known as \"Ragh nar Roog\"."
   },
   {
-    "name": "Sabrina Glevissig",
-    "charClass": "Sorceress",
-    "imageUrl": "https://vignette.wikia.nocookie.net/witcher/images/6/61/Sabrina_Glevissig_.jpg/revision/latest/scale-to-width-down/293?cb=20170722191844",
-    "description": "Sabrina Glevissig of Ard Carraigh was a sorceress and an advisor to King Henselt as well as a member of the Lodge of Sorceresses. She is related to Jade Glevissig."
+    "name": "Ulfhedinn",
+    "charClass": "Cursed / Monster",
+    "imageUrl": "img\\ulfhedinn-01.webm",
+    "description": "Ulfhedinn are a breed of werewolf found mainly in Skellige. The harsh and barren conditions of the isles might explain why they primarily hunt men and are stronger than their continental brethren."
   },
   {
     "name": "Francesca Findabair",
-    "charClass": "Queen / Elf / Sorceress",
-    "imageUrl": "https://vignette.wikia.nocookie.net/witcher/images/2/2b/Gwent_cardart_scoiatael_francesca.jpg/revision/latest/scale-to-width-down/350?cb=20180528185357",
+    "charClass": "Sorceress / Queen / Elf",
+    "imageUrl": "img\\francesca-01.webm",
     "description": "Francesca Findabair was an elf, a sorceress, and was the queen of the elves of Dol Blathanna as decreed by Emperor Emhyr var Emreis. She was considered to be the most beautiful woman in the world by quite a margin. She was also a founding member of the Lodge of Sorceresses after the fall of the Brotherhood of Sorcerers."
   },
   {
     "name": "Margarita Laux-Antille",
-    "charClass": "Sorceress",
-    "imageUrl": "https://vignette.wikia.nocookie.net/witcher/images/9/97/Tw3_journal_margarita.png/revision/latest/scale-to-width-down/350?cb=20160329074717",
+    "charClass": "Sorceress / Human",
+    "imageUrl": "img\\margarita-01.webm",
     "description": "Margarita Laux-Antille was a sorceress, and a rector of Aretuza. She was also the granddaughter of the famous Ilona Laux-Antille and a founding member of the Lodge of Sorceresses."
   },
   {
-    "name": "Fringilla Vigo",
-    "charClass": "Sorceress",
-    "imageUrl": "https://vignette.wikia.nocookie.net/witcher/images/4/4b/Tw3_journal_fringilla.png/revision/latest/scale-to-width-down/350?cb=20150906184013",
-    "description": "Fringilla Vigo was a Nilfgaardian sorceress and a member of the Lodge of Sorceresses along with her fellow countrywoman, Assire var Anahid. She was also the second cousin of Anna Henrietta of Toussaint. She was a woman with natural grace, green eyes and close-cropped black hair."
+    "name": "Letho of Gulet",
+    "charClass": "Witcher / Human",
+    "imageUrl": "img\\letho-01.webm",
+    "description": "Letho of Gulet, also known as the Kingslayer, was a witcher from the School of the Viper."
   },
   {
     "name": "Assire var Anahid",
-    "charClass": "Sorceress",
-    "imageUrl": "https://vignette.wikia.nocookie.net/witcher/images/3/3f/Assire_var_Anahid_Gwent_standalone_card_art.jpeg/revision/latest/top-crop/width/480/height/480?cb=20171012193614",
+    "charClass": "Sorceress / Human",
+    "imageUrl": "img\\assire-01.webm",
     "description": "Assire var Anahid was a mage in the Nilfgaardian Empire's service who hailed originally from Vicovaro. She was a sister of Eviva, aunt of Mawr and Cinead var Anahid as well as grandaunt of Cahir Mawr Dyffryn aep Ceallach."
   },
   {
     "name": "Emhyr var Emreis",
-    "charClass": "Emperor",
-    "imageUrl": "https://vignette.wikia.nocookie.net/witcher/images/0/0f/Gwent_cardart_nilfgaard_emhyr_var_emreis.png/revision/latest/top-crop/width/240/height/240?cb=20181028154213",
+    "charClass": "Emperor / Human",
+    "imageUrl": "img\\emhyr-01.webm",
     "description": "Emhyr var Emreis was Emperor of the Nilfgaardian Empire, Lord of Metinna, Ebbing, Gemmera, and Sovereign of Nazair and Vicovaro from 1257 until his death sometime in the late 13th century."
   },
   {
-    "name": "Cahir",
-    "charClass": "Officer",
-    "imageUrl": "https://vignette.wikia.nocookie.net/witcher/images/7/77/Tw_spanish_book_Cahir.jpg/revision/latest/scale-to-width-down/339?cb=20160517200822",
-    "description": "Cahir was an intelligence officer of the Nilfgaardian Empire who hailed from Vicovaro and was the son of Ceallach and Mawr. He eventually joined Geralt's company in their quest to find and rescue Ciri."
+    "name": "Aguara",
+    "charClass": "Monster / Demon",
+    "imageUrl": "img\\aguara-01.webm",
+    "description": "An aguara, also known as vixen, vulpess, and fox demon, is an antherion: that is she's a non-humanoid creature that can take on the form of a human. In an aguara's case, she has the base form of a fox."
   },
   {
     "name": "Vesemir",
-    "charClass": "Witcher",
-    "imageUrl": "https://vignette.wikia.nocookie.net/witcher/images/0/06/VesemirWitcher3.png/revision/latest/top-crop/width/240/height/240?cb=20141104212906",
+    "charClass": "Witcher / Human",
+    "imageUrl": "img\\vesemir-01.webm",
     "description": "Vesemir was the oldest and most experienced witcher at Kaer Morhen in the 13th century and acted as a father figure to Geralt and the other witchers."
   },
   {
-    "name": "Eskel",
-    "charClass": "Witcher",
-    "imageUrl": "https://vignette.wikia.nocookie.net/witcher/images/e/ee/School_of_the_Wolf-_Eskel_Gwent_card_art.jpg/revision/latest/top-crop/width/240/height/240?cb=20170924101948",
+    "name": "Ithlinne Aegli aep Aevenien",
+    "charClass": "Oracle / Elf",
+    "imageUrl": "img\\ithlinne-01.webm",
     "description": "Eskel was a calm and reasonable witcher and Geralt's friend from his youth and, according to Ciri, he even resembled him apart from hair color and a long scar which disfigured his cheeks. "
   },
   {
-    "name": "The Professor",
-    "charClass": "Assassin / Leader",
-    "imageUrl": "https://vignette.wikia.nocookie.net/witcher/images/3/34/People_Professor_full.png/revision/latest/scale-to-width-down/175?cb=20080922230232",
-    "description": "One of the apparent leaders of Salamandra. The Professor's trademark is his highly sophisticated choice of words, and witty comments. He detests witchers, regarding them as pathetic relics of the past."
+    "name": "Ocvist",
+    "charClass": "Dragon / Monster",
+    "imageUrl": "",
+    "description": "The Master of Quartz Mountain, the Destroyer, Trajan's Slayer. In his free time, he likes long walks and candlelight dinners."
   },
   {
     "name": "Foltest",
-    "charClass": "King",
-    "imageUrl": "https://vignette.wikia.nocookie.net/witcher/images/8/8e/Foltest_2.JPG/revision/latest/zoom-crop/width/240/height/240?cb=20071110121900",
+    "charClass": "King / Human",
+    "imageUrl": "img\\foltest-01.webm",
     "description": "Foltest was the king of Temeria, prince of Sodden, sovereign of Pontaria and Mahakam as well as the senior protector of Brugge and Ellander. He was the son of King Medell and Queen Sancia of Sodden, making him a member of the Temerian Dynasty."
   },
   {
-    "name": "Thaler",
-    "charClass": "Spy",
-    "imageUrl": "https://vignette.wikia.nocookie.net/witcher/images/7/79/Tw3_thaler_spy.png/revision/latest/scale-to-width-down/350?cb=20180205021423",
-    "description": "Sometime prior to 1270, Thaler was already the head of Temerian Intelligence, where he helped with various spy activities as well as more unusual tasks."
+    "name": "Dandelion",
+    "charClass": "Bard / Human",
+    "imageUrl": "img\\dandelion-01.webm",
+    "description": "Julian Alfred Pankratz, Viscount de Lettenhove, better known as Dandelion, was a poet, minstrel, bard, and close friend of Geralt of Rivia."
+  },
+  {
+    "name": "Iorveth",
+    "charClass": "Aen Seidhe / Elf",
+    "imageUrl": "img\\iorveth-01.webm",
+    "description": "Iorweth (Iorveth in the English version of the games) was an Aen Seidhe elf and the commander of the last Scoia'tael commando to be broken during the second war with Nilfgaard."
   }
 ]

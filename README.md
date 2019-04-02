@@ -43,5 +43,5 @@ npm run start
 ### CRUD
 
 - Launch Docker desktop
-- Open Playground within your browser at [localhost:4000](http://localhost:4000/)
+- Open Playground within your browser at [localhost:4000](http://localhost:4000/) (If 4000 does not load, try navigating to your machine's default env.PORT)
 - Copy contents from `playgroundCRUD.txt` located in the root directory and paste in the playground for some basic CRUD operations.

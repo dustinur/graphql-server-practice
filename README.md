@@ -4,7 +4,7 @@ GraphQL API Node Server for Utah Valley University course DGM4790. Prisma data m
 
 ## Getting Started
 
-To use Prisma locally, you need to have Docker installed on your machine. If you don't have Docker yet, you can download [here](https://www.docker.com/community-edition).
+To use Prisma locally, you need to have Docker installed on your machine. If you don't have Docker yet, you can download [here](https://www.docker.com/community-edition). Once installed, launch Docker desktop and keep running in background.
 
 ### Installing and starting server
 
@@ -15,7 +15,7 @@ In terminal, while in project directory, run:
 npm install
 ```
 
-To start Prisma and launch the connected database, run the following command:
+With Docker running, start Prisma and launch the connected database with the following command:
 
 ```
 npm run dockerStart
@@ -27,13 +27,13 @@ Deploy the Prisma API and generate the client:
 npm run deploy
 ```
 
-Seed the database
+Seed the database:
 
 ```
 npm run load
 ```
 
-Start GraphQL server on localhost:4000 (Run in separate terminal if needed)
+Start GraphQL server (Run in separate terminal if needed):
 
 ```
 npm run start

@@ -4,10 +4,10 @@
 # Required = name, charClass
 mutation createCharacter {
   createCharacter(data: { 
-    name: "Ciri", 
-    charClass: "Elder Blood", 
-    imageUrl: "test.jpg",
-    description: "description of character"
+    name: "Síle de Tansarville", 
+    charClass: "Sorceress / Human", 
+    imageUrl: "img\\Sile-02.webm",
+    description: "Síle de Tansarville was a sorceress from Creyden and one of the founding members of the Lodge of Sorceresses."
   }) {
     id
     name
@@ -30,7 +30,7 @@ query getCharacters {
 
 # Get single charcter by id
 query getCharacter {
-   character(where: { id: "id goes here" }) {
+   character(where: { id: "character id goes here" }) {
     id,
     name,
     charClass,
@@ -54,7 +54,7 @@ mutation updateCharacterName {
     	name: "Ciri"
     }
     where: {
-      id: "id goes here"
+      id: "id of character you would like to update"
     }
   ) {
     id
@@ -64,7 +64,7 @@ mutation updateCharacterName {
 
 # Delete single charcter by id
 mutation deleteCharacter {
-  deleteCharacter(where: { id: "id goes here" }) {
+  deleteCharacter(where: { id: "id of character you would like to delete" }) {
       id
       name
       charClass

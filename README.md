@@ -40,8 +40,8 @@ npm run start
 ```
 
 
-### CRUD Operations
+### CRUD
 
 - Launch Docker desktop
-- Access the GraphQL Playground within your browser at [localhost:4000](http://localhost:4000/)
-- Copy text from `playgroundCRUD.txt` located in the root directory and paste in the Playground for some basic CRUD operations
+- Open Playground within your browser at [localhost:4000](http://localhost:4000/)
+- Copy contents from `playgroundCRUD.txt` located in the root directory and paste in the playground for some basic CRUD operations.

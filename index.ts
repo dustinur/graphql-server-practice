@@ -1,38 +1,40 @@
-import * as path from 'path'
-import { GraphQLServer } from 'graphql-yoga'
-import { makePrismaSchema, prismaObjectType } from 'nexus-prisma'
-import { prisma } from './generated/prisma-client'
-import datamodelInfo from './generated/nexus-prisma'
+import * as path from "path";
+import { GraphQLServer } from "graphql-yoga";
+import { makePrismaSchema, prismaObjectType } from "nexus-prisma";
+import { prisma } from "./generated/prisma-client";
+import datamodelInfo from "./generated/nexus-prisma";
 
 const Query = prismaObjectType({
-    name: 'Query',
-    definition: t => t.prismaFields(['character', 'characters'])
-})
+  name: "Query",
+  definition: t => t.prismaFields(["character", "characters"])
+});
 const Mutation = prismaObjectType({
-    name: 'Mutation',
-    definition: t => t.prismaFields(['createCharacter', 'deleteCharacter', 'updateCharacter'])
-})
+  name: "Mutation",
+  definition: t =>
+    t.prismaFields(["createCharacter", "deleteCharacter", "updateCharacter"])
+});
 
 const schema = makePrismaSchema({
-    types: [Query, Mutation],
+  types: [Query, Mutation],
 
-    prisma: {
-        datamodelInfo,
-        client: prisma
-    },
+  prisma: {
+    datamodelInfo,
+    client: prisma
+  },
 
-    outputs: {
-        schema: path.join(__dirname, './generated/schema.graphql'),
-        typegen: path.join(__dirname, './generated/nexus.ts'),
-    },
-})
+  outputs: {
+    schema: path.join(__dirname, "./generated/schema.graphql"),
+    typegen: path.join(__dirname, "./generated/nexus.ts")
+  }
+});
 
 const server = new GraphQLServer({
-    schema,
-    context: { prisma }
-})
+  schema,
+  context: { prisma }
+});
 
-const port = process.env.PORT;
 server.start(() =>
-  console.log(`Server is running on http://localhost:${port}`)
+  console.log(
+    `Server is running on http://localhost:${process.env.PORT || 4000}`
+  )
 );

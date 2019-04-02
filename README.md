@@ -33,7 +33,7 @@ Seed the database
 npm run load
 ```
 
-Start GraphQL server on localhost:4000 (Run in seperate terminal if needed)
+Start GraphQL server on localhost:4000 (Run in separate terminal if needed)
 
 ```
 npm run start

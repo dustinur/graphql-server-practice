@@ -18,7 +18,7 @@ npm install
 To start Prisma and launch the connected database, run the following command:
 
 ```
-docker-compose up -d
+npm run dockerStart
 ```
 
 Deploy the Prisma API and generate the client:
@@ -33,10 +33,15 @@ Seed the database
 npm run load
 ```
 
+Start GraphQL server on localhost:4000 (Run in seperate terminal if needed)
+
+```
+npm run start
+```
 
 
 ### CRUD Operations
 
 - Launch Docker desktop
-- Open Playground within your browser at [localhost:4466](http://localhost:4466/)
-- Reference `playgroundCRUD.txt` located in the root directory for CRUD operations in the playground
+- Access the GraphQL Playground within your browser at [localhost:4000](http://localhost:4000/)
+- Copy text from `playgroundCRUD.txt` located in the root directory and paste in the Playground for some basic CRUD operations

@@ -4,6 +4,7 @@
 
 type Character {
   charClass: String!
+  description: String
   id: ID!
   imageUrl: String
   name: String!
@@ -11,6 +12,7 @@ type Character {
 
 input CharacterCreateInput {
   charClass: String!
+  description: String
   imageUrl: String
   name: String!
 }
@@ -20,6 +22,8 @@ enum CharacterOrderByInput {
   charClass_DESC
   createdAt_ASC
   createdAt_DESC
+  description_ASC
+  description_DESC
   id_ASC
   id_DESC
   imageUrl_ASC
@@ -46,6 +50,20 @@ input CharacterWhereInput {
   charClass_not_in: [String!]
   charClass_not_starts_with: String
   charClass_starts_with: String
+  description: String
+  description_contains: String
+  description_ends_with: String
+  description_gt: String
+  description_gte: String
+  description_in: [String!]
+  description_lt: String
+  description_lte: String
+  description_not: String
+  description_not_contains: String
+  description_not_ends_with: String
+  description_not_in: [String!]
+  description_not_starts_with: String
+  description_starts_with: String
   id: ID
   id_contains: ID
   id_ends_with: ID

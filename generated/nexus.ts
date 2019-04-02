@@ -13,6 +13,7 @@ declare global {
 export interface NexusGenInputs {
   CharacterCreateInput: { // input type
     charClass: string; // String!
+    description?: string | null; // String
     imageUrl?: string | null; // String
     name: string; // String!
   }
@@ -32,6 +33,20 @@ export interface NexusGenInputs {
     charClass_not_in?: string[] | null; // [String!]
     charClass_not_starts_with?: string | null; // String
     charClass_starts_with?: string | null; // String
+    description?: string | null; // String
+    description_contains?: string | null; // String
+    description_ends_with?: string | null; // String
+    description_gt?: string | null; // String
+    description_gte?: string | null; // String
+    description_in?: string[] | null; // [String!]
+    description_lt?: string | null; // String
+    description_lte?: string | null; // String
+    description_not?: string | null; // String
+    description_not_contains?: string | null; // String
+    description_not_ends_with?: string | null; // String
+    description_not_in?: string[] | null; // [String!]
+    description_not_starts_with?: string | null; // String
+    description_starts_with?: string | null; // String
     id?: string | null; // ID
     id_contains?: string | null; // ID
     id_ends_with?: string | null; // ID
@@ -83,12 +98,13 @@ export interface NexusGenInputs {
 }
 
 export interface NexusGenEnums {
-  CharacterOrderByInput: "charClass_ASC" | "charClass_DESC" | "createdAt_ASC" | "createdAt_DESC" | "id_ASC" | "id_DESC" | "imageUrl_ASC" | "imageUrl_DESC" | "name_ASC" | "name_DESC" | "updatedAt_ASC" | "updatedAt_DESC"
+  CharacterOrderByInput: "charClass_ASC" | "charClass_DESC" | "createdAt_ASC" | "createdAt_DESC" | "description_ASC" | "description_DESC" | "id_ASC" | "id_DESC" | "imageUrl_ASC" | "imageUrl_DESC" | "name_ASC" | "name_DESC" | "updatedAt_ASC" | "updatedAt_DESC"
 }
 
 export interface NexusGenRootTypes {
   Character: { // root type
     charClass: string; // String!
+    description?: string | null; // String
     id: string; // ID!
     imageUrl?: string | null; // String
     name: string; // String!
@@ -112,6 +128,7 @@ export interface NexusGenAllTypes extends NexusGenRootTypes {
 export interface NexusGenFieldTypes {
   Character: { // field return type
     charClass: string; // String!
+    description: string | null; // String
     id: string; // ID!
     imageUrl: string | null; // String
     name: string; // String!

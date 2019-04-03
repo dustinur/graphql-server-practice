@@ -1,7 +1,3 @@
-// npm run delete or npm run reset
-// npm run deploy
-// npm run load
-
 const fs = require("fs");
 const { GraphQLClient } = require("graphql-request");
 

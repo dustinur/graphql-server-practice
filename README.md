@@ -10,7 +10,6 @@ To use Prisma locally, you need to have Docker installed on your machine. If you
 
 In terminal, while in project directory, run:
 
-
 ```
 npm install
 ```
@@ -38,7 +37,6 @@ Start GraphQL server (Run in separate terminal if needed):
 ```
 npm run start
 ```
-
 
 ### CRUD
 

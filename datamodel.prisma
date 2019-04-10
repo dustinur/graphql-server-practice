@@ -3,6 +3,7 @@ type Character {
   name: String!
   charClass: String!
   imageUrl: String
+  poster: String
   description: String
 }
 

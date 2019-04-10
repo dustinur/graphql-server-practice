@@ -7,18 +7,21 @@ const mutation = `mutation createCharacter(
     $name: String!,
     $charClass: String!,
     $imageUrl: String,
+    $poster: String,
     $description: String
 ) {
     createCharacter(data: {
         name: $name
         charClass: $charClass
         imageUrl: $imageUrl
+        poster: $poster
         description: $description 
     })
     {
         name
         charClass
         imageUrl
+        poster
         description
         id
     }
@@ -37,6 +40,7 @@ async function main(inputFile) {
       name: item.name,
       charClass: item.charClass,
       imageUrl: item.imageUrl,
+      poster: item.poster,
       description: item.description
     };
 

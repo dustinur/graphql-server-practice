@@ -3,150 +3,175 @@
     "name": "Geralt of Rivia",
     "charClass": "Witcher / Human",
     "imageUrl": "geralt-01.webm",
+    "poster": "https://cdnb.artstation.com/p/assets/images/images/000/848/617/large/marek-madej-gwent-geralt-by-marekmadej.jpg",
     "description": "School of the Wolf"
   },
   {
     "name": "Triss Merigold",
     "charClass": "Sorceress / Human",
     "imageUrl": "triss-02.webm",
+    "poster": "https://cdna.artstation.com/p/assets/images/images/009/762/014/large/lorenzo-mastroianni-triss-telekinesis.jpg",
     "description": "Triss Merigold of Maribor was a legendary Temerian sorceress of the 13th century."
   },
   {
     "name": "Ermion aka Mousesack",
     "charClass": "Druid / Human",
     "imageUrl": "ermion-01.webm",
+    "poster": "https://i.pinimg.com/originals/e8/a2/75/e8a275c32e054ce0d6700e8837b01d85.jpg",
     "description": "A skilled and intelligent druid, and also a good friend and advisor to King Bran Tuirseach of Skellige."
   },
   {
     "name": "Zoltan Chivay",
     "charClass": "Dwarf",
     "imageUrl": "zoltan-01.webm",
+    "poster": "https://cdnb.artstation.com/p/assets/images/images/007/075/399/large/grafit-studio-zoltan-animal-trainer.jpg",
     "description": "Friend of Geralt"
   },
   {
     "name": "Yennefer of Vengerberg",
     "charClass": "Sorceress / Human",
     "imageUrl": "yen-02.webm",
+    "poster": "https://cdnb.artstation.com/p/assets/images/images/003/883/103/large/anna-podedworna-yennefer2.jpg",
     "description": "A sorceress who lived in Vengerberg, the capital city of Aedirn. She was Geralt of Rivia's true love and a mother figure to Ciri, whom she viewed like a daughter to the point that she did everything she could to rescue the girl and keep her from harm."
   },
   {
     "name": "Cirilla Fiona Elen Riannon",
     "charClass": "Elder Blood / Human",
     "imageUrl": "ciri-02.webm",
+    "poster": "https://cdnb.artstation.com/p/assets/images/images/004/954/513/medium/anna-podedworna-ciri1.jpg",
     "description": "Ciri was born in 1253, and most likely during the Belleteyn holiday. She was the sole princess of Cintra, the daughter of Pavetta and Emhyr var Emreis as well as Queen Calanthe's granddaughter."
   },
   {
     "name": "Caranthir Ar-Feiniel",
     "charClass": "Wild Hunt / Aen Elle / Elf",
     "imageUrl": "caranthir-01.webm",
+    "poster": "https://cdna.artstation.com/p/assets/images/images/004/135/634/large/marek-madej-caranthir-by-marekmadej.jpg",
     "description": "Caranthir Ar-Feiniel, also once known as the Golden Child, was a navigator of the Wild Hunt, and was one of Eredin Bréacc Glas' most trusted men."
   },
   {
     "name": "Lambert",
     "charClass": "Witcher / Human",
     "imageUrl": "lambert-01.webm",
+    "poster": "https://pbs.twimg.com/media/CsUMxl0W8AA6ufN.jpg",
     "description": "Lambert was one of the younger witchers from Kaer Morhen. Known for his biting tongue, he was often rude in conversation. "
   },
   {
     "name": "Saesenthessis",
     "charClass": "Dragon",
     "imageUrl": "saesenthessis-01.webm",
+    "poster": "https://cdna.artstation.com/p/assets/images/images/010/245/806/large/anna-podedworna-sas01.jpg",
     "description": "Saesenthessis, aka Saskia the Dragonslayer, was a dragon with the ability to take on the form of a human. She was the daughter of the famous golden dragon Villentretenmerth and the green dragon Myrgtabrakke."
   },
   {
     "name": "Ihuarraquax",
     "charClass": "Unicorn",
     "imageUrl": "ihuarraquax-01.webm",
+    "poster": "https://cdna.artstation.com/p/assets/images/images/009/953/986/large/anna-podedworna-ihuarraquaxda.jpg",
     "description": "Ihuarraquax was a young pure white unicorn who wandered the Korath desert with Ciri for a few days."
   },
   {
     "name": "Philippa Eilhart",
     "charClass": "Sorceress / Human",
     "imageUrl": "philippa-01.webm",
+    "poster": "https://cdnb.artstation.com/p/assets/images/images/004/812/149/large/diego-de-almeida-diego-de-almeida-philippa.jpg",
     "description": "Philippa Eilhart (Polish: Filippa Eilhart) was King Vizimir's advisor and remained in Redania's court even after his death, for which she was likely responsible. She was one of the few sorceresses able to polymorph."
   },
   {
     "name": "Hemdall",
     "charClass": "Legend / Human",
     "imageUrl": "hemdall-01.webm",
+    "poster": "https://cdna.artstation.com/p/assets/images/images/003/003/434/large/anna-podedworna-hemdall.jpg",
     "description": "Hemdall is a hero of myths and sagas of Skellige. According to legend, there is a magical golden rooster known as Kambi whose task it is to awaken Hemdall before the Last Battle between the forces of good and evil known as \"Ragh nar Roog\"."
   },
   {
     "name": "Ulfhedinn",
     "charClass": "Cursed / Monster",
     "imageUrl": "ulfhedinn-01.webm",
+    "poster": "https://cdna.artstation.com/p/assets/images/images/009/466/238/large/anna-podedworna-ulfhedinnda.jpg",
     "description": "Ulfhedinn are a breed of werewolf found mainly in Skellige. The harsh and barren conditions of the isles might explain why they primarily hunt men and are stronger than their continental brethren."
   },
   {
     "name": "Francesca Findabair",
     "charClass": "Sorceress / Queen / Elf",
     "imageUrl": "francesca-01.webm",
+    "poster": "https://cdna.artstation.com/p/assets/images/images/003/937/770/large/lorenzo-mastroianni-gwent-francesca-lorenzo-mastroianni.jpg",
     "description": "Francesca Findabair was an elf, a sorceress, and was the queen of the elves of Dol Blathanna as decreed by Emperor Emhyr var Emreis. She was considered to be the most beautiful woman in the world by quite a margin. She was also a founding member of the Lodge of Sorceresses after the fall of the Brotherhood of Sorcerers."
   },
   {
     "name": "Margarita Laux-Antille",
     "charClass": "Sorceress / Human",
     "imageUrl": "margarita-01.webm",
+    "poster": "https://i.pinimg.com/1200x/29/bf/05/29bf056fc58540f41c95a294863943fc.jpg",
     "description": "Margarita Laux-Antille was a sorceress, and a rector of Aretuza. She was also the granddaughter of the famous Ilona Laux-Antille and a founding member of the Lodge of Sorceresses."
   },
   {
     "name": "Letho of Gulet",
     "charClass": "Witcher / Human",
     "imageUrl": "letho-01.webm",
+    "poster": "https://cdnb.artstation.com/p/assets/images/images/005/277/771/large/lorenzo-mastroianni-gwent-letho-lorenzo-mastroianni.jpg",
     "description": "Letho of Gulet, also known as the Kingslayer, was a witcher from the School of the Viper."
   },
   {
     "name": "Assire var Anahid",
     "charClass": "Sorceress / Human",
     "imageUrl": "assire-01.webm",
+    "poster": "https://cdnb.artstation.com/p/assets/images/images/005/311/235/large/anna-podedworna-assire1.jpg",
     "description": "Assire var Anahid was a mage in the Nilfgaardian Empire's service who hailed originally from Vicovaro. She was a sister of Eviva, aunt of Mawr and Cinead var Anahid as well as grandaunt of Cahir Mawr Dyffryn aep Ceallach."
   },
   {
     "name": "Emhyr var Emreis",
     "charClass": "Emperor / Human",
     "imageUrl": "emhyr-01.webm",
+    "poster": "https://cdna.artstation.com/p/assets/images/images/005/002/574/large/nemanja-stankovic-emhyr.jpg",
     "description": "Emhyr var Emreis was Emperor of the Nilfgaardian Empire, Lord of Metinna, Ebbing, Gemmera, and Sovereign of Nazair and Vicovaro from 1257 until his death sometime in the late 13th century."
   },
   {
     "name": "Aguara",
     "charClass": "Monster / Demon",
     "imageUrl": "aguara-01.webm",
+    "poster": "https://cdnb.artstation.com/p/assets/images/images/009/014/585/large/anna-podedworna-aguara-fox-fin1.jpg",
     "description": "An aguara, also known as vixen, vulpess, and fox demon, is an antherion: that is she's a non-humanoid creature that can take on the form of a human. In an aguara's case, she has the base form of a fox."
   },
   {
     "name": "Vesemir",
     "charClass": "Witcher / Human",
     "imageUrl": "vesemir-01.webm",
+    "poster": "https://cdnb.artstation.com/p/assets/images/images/003/806/057/large/bartlomiej-gawel-vesemir.jpg",
     "description": "Vesemir was the oldest and most experienced witcher at Kaer Morhen in the 13th century and acted as a father figure to Geralt and the other witchers."
   },
   {
     "name": "Ithlinne Aegli aep Aevenien",
     "charClass": "Oracle / Elf",
     "imageUrl": "ithlinne-01.webm",
+    "poster": "https://cdnb.artstation.com/p/assets/images/images/007/205/517/large/bryan-sola-ithlinne-aegli.jpg",
     "description": "Ithlinne Aegli aep Aevenien was a legendary elven healer, astrologist and oracle."
   },
   {
     "name": "Ocvist",
     "charClass": "Dragon / Monster",
-    "imageUrl": "",
+    "imageUrl": "ocvist-02.webm",
+    "poster": "https://cdnb.artstation.com/p/assets/images/images/003/821/581/large/bartlomiej-gawel-ocvist.jpg",
     "description": "The Master of Quartz Mountain, the Destroyer, Trajan's Slayer. In his free time, he likes long walks and candlelight dinners."
   },
   {
     "name": "Foltest",
     "charClass": "King / Human",
     "imageUrl": "foltest-01.webm",
+    "poster": "https://cdnb.artstation.com/p/assets/images/images/006/907/285/large/stanton-feng-foltest-1.jpg",
     "description": "Foltest was the king of Temeria, prince of Sodden, sovereign of Pontaria and Mahakam as well as the senior protector of Brugge and Ellander. He was the son of King Medell and Queen Sancia of Sodden, making him a member of the Temerian Dynasty."
   },
   {
     "name": "Dandelion",
     "charClass": "Bard / Human",
     "imageUrl": "dandelion-01.webm",
+    "poster": "https://cdna.artstation.com/p/assets/images/images/010/012/492/large/anna-podedworna-jaskierda.jpg",
     "description": "Julian Alfred Pankratz, Viscount de Lettenhove, better known as Dandelion, was a poet, minstrel, bard, and close friend of Geralt of Rivia."
   },
   {
     "name": "Iorveth",
     "charClass": "Aen Seidhe / Elf",
     "imageUrl": "iorveth-01.webm",
+    "poster": "https://cdnb.artstation.com/p/assets/images/images/005/247/845/large/anna-podedworna-iorveth2222.jpg",
     "description": "Iorweth (Iorveth in the English version of the games) was an Aen Seidhe elf and the commander of the last Scoia'tael commando to be broken during the second war with Nilfgaard."
   }
 ]

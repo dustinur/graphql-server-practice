@@ -6,13 +6,15 @@ mutation createCharacter {
   createCharacter(data: { 
     name: "Síle de Tansarville", 
     charClass: "Sorceress / Human", 
-    imageUrl: "img\\Sile-02.webm",
+    imageUrl: "sile-01.webm",
+    poster: "https://pp.userapi.com/c841523/v841523990/4158d/xo-NIOMNQ0k.jpg",
     description: "Síle de Tansarville was a sorceress from Creyden and one of the founding members of the Lodge of Sorceresses."
   }) {
     id
     name
     charClass
     imageUrl
+    poster
     description
   }
 }
@@ -24,17 +26,19 @@ query getCharacters {
     name,
     charClass,
     imageUrl,
+    poster,
     description
   }
 }
 
 # Get single charcter by id
 query getCharacter {
-   character(where: { id: "character id goes here" }) {
+   character(where: { id: "cju058ghw00ui0d42dwwbvxut" }) {
     id,
     name,
     charClass,
     imageUrl,
+    poster,
     description
   }
 }
@@ -51,10 +55,10 @@ query getCharactersNameASC {
 mutation updateCharacterName {
   updateCharacter(
     data: {
-    	name: "Ciri"
+    	name: "Assire"
     }
     where: {
-      id: "id of character you would like to update"
+      id: "cju045mro00r70d42qp971ne7"
     }
   ) {
     id
@@ -64,11 +68,12 @@ mutation updateCharacterName {
 
 # Delete single charcter by id
 mutation deleteCharacter {
-  deleteCharacter(where: { id: "id of character you would like to delete" }) {
+  deleteCharacter(where: { id: "cju8i83bs004d0742hyz784g7" }) {
       id
       name
       charClass
       imageUrl
+      poster
     	description
     }
 }

@@ -1,7 +1,7 @@
 type Character {
   id: ID! @unique
   name: String!
-  charClass: String!
+  charClass: String
   imageUrl: String
   poster: String
   description: String

@@ -33,7 +33,7 @@ query getCharacters {
 
 # Get single charcter by id
 query getCharacter {
-   character(where: { id: "cju058ghw00ui0d42dwwbvxut" }) {
+   character(where: { id: "character id goes here" }) {
     id,
     name,
     charClass,
@@ -58,7 +58,7 @@ mutation updateCharacterName {
     	name: "Assire"
     }
     where: {
-      id: "cju045mro00r70d42qp971ne7"
+      id: "character id goes here"
     }
   ) {
     id
@@ -68,7 +68,7 @@ mutation updateCharacterName {
 
 # Delete single charcter by id
 mutation deleteCharacter {
-  deleteCharacter(where: { id: "cju8i83bs004d0742hyz784g7" }) {
+  deleteCharacter(where: { id: "character id goes here" }) {
       id
       name
       charClass

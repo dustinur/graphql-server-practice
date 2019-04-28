@@ -1,3 +1,4 @@
+# endpoint: https://witcher-heroku-1-fd8bd1d0ae.herokuapp.com
 endpoint: http://localhost:4466
 datamodel: datamodel.prisma
 generate:

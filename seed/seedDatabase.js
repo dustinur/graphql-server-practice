@@ -2,6 +2,7 @@ const fs = require("fs");
 const { GraphQLClient } = require("graphql-request");
 
 const client = new GraphQLClient("http://localhost:4466");
+// const client = new GraphQLClient("https://witcher-heroku-1-fd8bd1d0ae.herokuapp.com");
 
 const mutation = `mutation createCharacter(
     $name: String!,
